@@ -1,0 +1,15 @@
+@import 'variable';
+@import 'mixin';
+
+body {
+    margin: 0px 0px;
+    background-color:$back-font ;
+}
+
+@include nav;
+
+@include selection;
+
+@include madia;
+
+
